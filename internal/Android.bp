@@ -1,5 +1,6 @@
 java_library {
     name: "telephony-ext",
+    installable: true,
     srcs: [
         "src/org/**/*.java",
         "src/org/**/I*.aidl",
@@ -9,5 +10,4 @@ java_library {
     aidl: {
         local_include_dirs: ["src/org"],
     },
-    installable: true,
 }
